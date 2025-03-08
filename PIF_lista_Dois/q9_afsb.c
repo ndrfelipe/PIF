@@ -12,9 +12,7 @@ int main(){
         
     } while (pass != password);
     
-    printf("Acesso Permitido\n");
-    
-
+    printf("Acesso Permitido");
      
     return 0;
 }
