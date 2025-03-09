@@ -11,7 +11,7 @@ int main(){
         S += (double)numerador/ denominador;
     }
 
-    printf("%.2lf", S);
+    printf("%.2lf\n", S);
     
      
     return 0;

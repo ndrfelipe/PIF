@@ -13,7 +13,6 @@ int main(){
     }else if(salario <= 4500.00){
       salarioFinal = ((salario - 2000.00 - (salario - 3000.00)) * 0.08) + ((salario - 3000.00) * 0.18);
       printf("R$ %.2lf\n", salarioFinal);
-      // imposto 18%
     }else{
       salarioFinal = ((salario - 2000.00 - (salario - 3000.00)) * 0.08) + ((salario - 3000.00 - (salario - 4500.00)) * 0.18) + ((salario - 4500.00) * 0.28);
       printf("R$ %.2lf\n", salarioFinal);
